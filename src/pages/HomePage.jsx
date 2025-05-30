@@ -13,13 +13,13 @@ const projects = [
   {
     title: "Semester Project 2",
     description: "An auction application.",
-    link: "https://github.com/yourusername/semester-project-2",
+    link: "https://github.com/elinkrull/SemesterProject2",
     image: "/printscreen2.png",
   },
   {
     title: "Exam Project 2",
     description: "Accommodation booking site.",
-    link: "https://github.com/yourusername/exam-project-2",
+    link: "https://holidaze-project-exam-2-etj.netlify.app/",
     image: "/printscreen3.png",
   },
 ];
