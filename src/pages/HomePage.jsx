@@ -1,35 +1,44 @@
+import { Container, Row, Col } from "react-bootstrap";
+import ProjectCard from "../components/ProjectCard";
+import MeSection from "../components/MeSection";
+
+const projects = [
+  {
+    title: "Javascript Frameworks",
+    description:
+      "An eCom store built with HTML, CSS, JavaScript and Create-React-App",
+    link: "https://ca-js-frameworks.netlify.app/",
+    image: "/printscreen1.png",
+  },
+  {
+    title: "Semester Project 2",
+    description: "An auction application.",
+    link: "https://github.com/yourusername/semester-project-2",
+    image: "/printscreen2.png",
+  },
+  {
+    title: "Exam Project 2",
+    description: "Accommodation booking site.",
+    link: "https://github.com/yourusername/exam-project-2",
+    image: "/printscreen3.png",
+  },
+];
+
 function HomePage() {
   return (
-    <section>
-      <ul>
-        <li>
-          <a
-            href="https://github.com/elinkrull/project-exam-2"
-            target="_blank"
-            rel="noopener noreferrer">
-            Prosjekt 1 – Project Exam 2
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/elinkrull/SemesterProject2"
-            target="_blank"
-            rel="noopener noreferrer">
-            Prosjekt 2 – Semester Project 2
-          </a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a
-            href="https://github.com/elinkrull/cr-ca-js-framework"
-            target="_blank"
-            rel="noopener noreferrer">
-            Project 3 - JavaScript Frameworks
-          </a>
-        </li>
-      </ul>
-    </section>
+    <>
+      <MeSection />
+      <Container className="py-5" id="projects">
+        <h1 className="text-center mb-5">My Projects</h1>
+        <Row>
+          {projects.map((project, index) => (
+            <Col key={index} xs={12} md={6} lg={4}>
+              <ProjectCard project={project} index={index} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </>
   );
 }
 
