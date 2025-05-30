@@ -1,0 +1,17 @@
+$primary: #3481a0;
+$font-family-base: "Poppins", sans-serif;
+$body-bg: #f8f9fa;
+
+@import "bootstrap/scss/bootstrap";
+
+// Custom styles
+
+body {
+  background-color: #edf2f7;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-section {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
