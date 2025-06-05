@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "../components/ProjectCard";
+import ProjectTeaserCard from "../components/ProjectTeaserCard";
 import Layout from "../components/Layout";
 
 const projects = [
@@ -32,7 +32,7 @@ function HomePage() {
         <Row>
           {projects.map((project, index) => (
             <Col key={index} xs={12} md={6} lg={4}>
-              <ProjectCard project={project} index={index} />
+              <ProjectTeaserCard project={project} index={index} />
             </Col>
           ))}
         </Row>

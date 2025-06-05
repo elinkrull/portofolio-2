@@ -19,3 +19,17 @@ body {
 .logo {
   background-color: none;
 }
+
+img {
+  max-height: 400px;
+  object-fit: contain;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h4 {
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
