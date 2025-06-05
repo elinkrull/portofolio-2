@@ -9,6 +9,7 @@ function ProjectTeaserCard({ project, index }) {
       transition={{ delay: index * 0.3 }}
       whileHover={{ scale: 1.05 }}>
       <Card className="mb-4 shadow-sm border-0 rounded-3">
+        <Card.Img variant="top" src={project.image} alt={project.title} />
         <Card.Body>
           <Card.Title>{project.title}</Card.Title>
           <Card.Text>{project.description}</Card.Text>
@@ -21,7 +22,6 @@ function ProjectTeaserCard({ project, index }) {
             Read More
           </Button>
         </Card.Body>
-        <Card.Img variant="top" src={project.image} alt={project.title} />
       </Card>
     </motion.div>
   );
