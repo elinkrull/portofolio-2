@@ -7,19 +7,19 @@ const projects = [
     title: "Javascript Frameworks",
     description:
       "An eCom store built with HTML, CSS, JavaScript and Create-React-App",
-    link: "https://ca-js-frameworks.netlify.app/",
+    link: "/project-one",
     image: "/printscreen1.png",
   },
   {
     title: "Semester Project 2",
     description: "An auction application.",
-    link: "https://github.com/elinkrull/SemesterProject2",
+    link: "/project-two",
     image: "/printscreen2.png",
   },
   {
     title: "Exam Project 2",
     description: "Accommodation booking site.",
-    link: "https://holidaze-project-exam-2-etj.netlify.app/",
+    link: "/project-three",
     image: "/printscreen3.png",
   },
 ];
