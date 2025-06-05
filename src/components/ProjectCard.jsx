@@ -19,7 +19,7 @@ function ProjectCard({ project, index }) {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer">
-            View Project
+            Read
           </Button>
         </Card.Body>
       </Card>
