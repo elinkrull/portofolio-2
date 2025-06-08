@@ -14,7 +14,7 @@ function ProjectTwo() {
         and
         reflections=""
         liveUrl="https://semester-project-2-etj.netlify.app/"
-        githubUrl="https://github.com/elinkrull/SemesterProject2/blob/main/README.md"
+        githubUrl="https://github.com/elinkrull/semester-project-2/blob/main/README.md"
       />
     </Layout>
   );

@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import ProjectDetails from "../components/ProjectDetails";
 
-function ProjectTwo() {
+function ProjectThree() {
   return (
     <Layout>
       <ProjectDetails
@@ -20,4 +20,4 @@ function ProjectTwo() {
   );
 }
 
-export default ProjectTwo;
+export default ProjectThree;
