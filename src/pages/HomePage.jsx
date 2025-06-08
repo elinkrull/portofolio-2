@@ -12,13 +12,15 @@ const projects = [
   },
   {
     title: "Semester Project 2",
-    description: "An auction application.",
+    description:
+      "An auction application built with HTML, CSS Bootstrap and JavaScript.",
     link: "/project-two",
     image: "/semesterProject.png",
   },
   {
     title: "Exam Project 2",
-    description: "Accommodation booking site.",
+    description:
+      "An accommodation booking site built with HTML, CSS FrameWork, JavaScript and React",
     link: "/project-three",
     image: "/printscreen3.png",
   },
