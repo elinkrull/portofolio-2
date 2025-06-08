@@ -1,8 +1,10 @@
 # Portofolio
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image]
+<img width="160" alt="semesterProject" src="https://github.com/user-attachments/assets/28591dfa-ea1e-4a75-a408-de29ef3b2044" />
 
-The portofolio is a project where the purpose was to evaluate my own projects. The Portofolio must be built using a CSS Framework and or JavaScript Framework.
+
+The portofolio is a project where the purpose is to evaluate my own projects. The Portofolio is built using a CSS Bootstrap and React.
 
 ## Description
 
@@ -50,10 +52,6 @@ npm run start
 ### Live website on Netlify:
 
 https://portofolio-2-etj.netlify.app/
-
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
 
 ## Contact
 
