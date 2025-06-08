@@ -1,6 +1,5 @@
 # Portofolio
 
-![image]
 <img width="160" alt="semesterProject" src="https://github.com/user-attachments/assets/28591dfa-ea1e-4a75-a408-de29ef3b2044" />
 
 
