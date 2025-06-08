@@ -1,5 +1,6 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { Container, Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
+import { FaExternalLinkAlt, FaGithub, FaLink } from "react-icons/fa";
+import { useState } from "react";
 
 function ProjectDetails({
   title,
@@ -11,11 +12,31 @@ function ProjectDetails({
   liveUrl,
   githubUrl,
 }) {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyLink = () => {
+    navigator.clipboard.writeText(window.location.href);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   return (
     <Container className="py-5">
       <Row className="align-items-center">
         <Col md={7}>
-          <h1 className="mb-4">{title}</h1>
+          <div className="d-flex align-items-center mb-4">
+            <h1 className="me-3 mb-0">{title}</h1>
+            <OverlayTrigger
+              placement="right"
+              overlay={<Tooltip>{copied ? "Copied!" : "Copy Link"}</Tooltip>}>
+              <button
+                onClick={handleCopyLink}
+                className="btn btn-outline-secondary btn-sm">
+                <FaLink />
+              </button>
+            </OverlayTrigger>
+          </div>
+
           <div className="project-image-wrapper">
             <img
               src={image}
@@ -49,7 +70,8 @@ function ProjectDetails({
               className="btn btn-dark"
               target="_blank"
               rel="noopener noreferrer">
-              GitHub Repo <FaGithub className="ms-2" />
+              GitHub Repo ReadMe Page
+              <FaGithub className="ms-2" />
             </a>
           </div>
         </Col>
