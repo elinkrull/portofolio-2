@@ -11,7 +11,7 @@ function ProjectTeaserCard({ project, index }) {
       <Card className="mb-4 shadow-sm border-0 rounded-3">
         <Card.Img variant="top" src={project.image} alt={project.title} />
         <Card.Body>
-          <Card.Title>{project.title}</Card.Title>
+          <Card.Title className="fw-bold">{project.title}</Card.Title>
           <Card.Text>{project.description}</Card.Text>
           <Button
             className="text-white"
