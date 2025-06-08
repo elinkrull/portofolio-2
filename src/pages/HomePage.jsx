@@ -14,7 +14,7 @@ const projects = [
     title: "Semester Project 2",
     description: "An auction application.",
     link: "/project-two",
-    image: "/printscreen2.png",
+    image: "/semesterProject.png",
   },
   {
     title: "Exam Project 2",

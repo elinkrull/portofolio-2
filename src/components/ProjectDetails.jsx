@@ -43,7 +43,7 @@ function ProjectDetails({
               alt={imageAlt}
               className="img-fluid rounded shadow"
             />
-            <p className="text-muted text-center mt-2">{imageCaption}</p>
+            <p className="text-muted mt-2">{imageCaption}</p>
           </div>
 
           <div className="mb-4">
