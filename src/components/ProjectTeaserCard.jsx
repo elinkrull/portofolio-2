@@ -1,7 +1,7 @@
 import { Card, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
 
-function ProjectCard({ project, index }) {
+function ProjectTeaserCard({ project, index }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -19,7 +19,7 @@ function ProjectCard({ project, index }) {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer">
-            Read
+            Read More
           </Button>
         </Card.Body>
       </Card>
@@ -27,4 +27,4 @@ function ProjectCard({ project, index }) {
   );
 }
 
-export default ProjectCard;
+export default ProjectTeaserCard;

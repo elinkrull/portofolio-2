@@ -1,17 +1,21 @@
 import Layout from "../components/Layout";
+import ProjectDetails from "../components/ProjectDetails";
 
 function ProjectTwo() {
   return (
     <Layout>
-      <h1>Semester Project</h1>
-      <p>
-        Each project article page must include the following: Project article
-        title, detailed description and share/copy link or icon. Project article
-        image with caption (png or jpeg and optimized to 200KB). Project link to
-        the live site (must open in a new tab). The GitHub repository README.md
-        page link (must open in a new tab). Main content (reflections and
-        improvements).
-      </p>
+      <ProjectDetails
+        title="Semester Project"
+        image="/printscreen2.png"
+        imageAlt="Semester Project"
+        imageCaption="An auction site built with HTML, CSS and JS"
+        description="This eCommerce store was built using React (Create React App), JavaScript, HTML and CSS. The application integrates with an API to display products, allow users to add products to the cart, and complete checkout functionality. The users can add items to be bid on and bid on items other users have put up for auction. When a new user joins the website, they are given 1000 credits to use on the site. They can get credits by selling items and use credit by buying items. Non-registered users can search through the listings, but only registered users can make bids on listings"
+        improvements
+        and
+        reflections=""
+        liveUrl="/"
+        githubUrl="https://github.com/elinkrull/SemesterProject2"
+      />
     </Layout>
   );
 }
