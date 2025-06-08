@@ -16,6 +16,23 @@ The projects I had to select for this Portofolio was:
 - Semester Project 2
 - Exam Project 2
 
+## Process
+
+Each project teaser card must include the following:
+
+- The project thumbnail (png or jpeg and optimized to <=200KB).
+- The project title.
+- The project's short description (2 lines, a teaser of max 120-130 characters).
+- The project read more link to the article page OR the entire project card is a link to the article page.
+
+Each project article page must include the following:
+
+- Project article title, detailed description and share/copy link or icon.
+- Project article image with caption (png or jpeg and optimized to <=200KB).
+- Project link to the live site (must open in a new tab).
+- The GitHub repository README.md page link (must open in a new tab).
+- Main content (reflections and improvements).
+
 ## Built With
 
 - HTML
@@ -31,7 +48,7 @@ This is where you list how to get the project started. It typically just include
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git](https://github.com/elinkrull/portofolio-2.git
+git clone https://github.com/elinkrull/portofolio-2.git
 ```
 
 2. Install the dependencies:
@@ -45,7 +62,7 @@ npm install
 To run the app, run the following commands:
 
 ```bash
-npm run start
+npm run build
 ```
 
 ### Live website on Netlify:
