@@ -14,7 +14,7 @@ function ProjectOne() {
         and
         reflections="Throughout this project, I focused on improving both code quality and user experience. I implemented JSDoc documentation to better structure and document the codebase, and performed a thorough code cleanup by removing unnecessary console logs, trailing whitespaces, and unused fragments. I also ensured more consistent use of const for variables. On the design side, I optimized the layout to give all product cards a uniform size and consistent element placement, updated button styling for a more polished look, and made the entire site fully responsive to provide a smooth experience across different devices. These improvements helped me strengthen my skills in React, component structure, and responsive design."
         liveUrl="https://ca-js-frameworks.netlify.app/"
-        githubUrl="https://github.com/elinkrull/cr-ca-js-framework"
+        githubUrl="https://github.com/elinkrull/cr-ca-js-framework/blob/main/README.md"
       />
     </Layout>
   );
